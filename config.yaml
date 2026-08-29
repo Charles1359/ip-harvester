@@ -1,0 +1,81 @@
+dns_servers:
+  - name: google-doh
+    protocol: doh
+    url: https://dns.google/dns-query
+    verify: true
+
+edns_client_subnets:
+  - 114.160.193.0/24 # JP NTT
+  - 111.238.246.0/24 # JP KDDI
+  - 160.86.238.0/24 # JP Sony
+  - 211.201.193.0/24 # KR SK
+  - 121.163.23.0/24 # KR KT
+  - 116.37.255.0/24 # KR LG U+
+  - 210.10.77.0/24 # SG Simba
+  - 58.182.96.0/24 # SG Starhub
+  - 180.129.61.0/24 # SG M1
+  - 219.79.150.0/24 # HK HKT
+  - 223.19.154.0/24 # HK HGC
+  - 59.188.184.0/24 # HK HKBN
+  - 104.1.48.0/24 # US AT&T
+  - 47.144.68.0/24 # US Verizon
+  - 172.56.127.0/24 # US T-Mobile
+  - 62.253.37.0/24 # GB Virgin Media
+  - 46.233.88.0/24 # GB O2
+  - 90.206.19.0/24 # GB Sky
+  - 1.145.165.0/24 # AU Telstra
+  - 49.199.79.0/24 # AU Optus
+  - 193.114.109.0/24 # AU TPG
+  - 217.247.28.0/24 # DE Deutsche Telekom
+  - 178.27.36.0/24 # DE Vodafone
+  - 87.123.243.0/24 # DE 1&1
+
+domains:
+  - name: amdc.m.taobao.com
+    types: [A]
+  - name: ga-bp13zjq7c66whdydgu0q6.aliyunga0017.com
+    types: [A]
+  - name: login.taobao.com
+    types: [A]
+  - name: mtop.oversea.tao.alibabacorp.com
+    types: [A]
+  - name: h5api.m.taobao.com
+    types: [A]
+  - name: acs.m.taobao.com
+    types: [A]
+  - name: guide-acs.m.taobao.com
+    types: [A]
+  - name: trade-acs.m.taobao.com
+    types: [A]
+  - name: guide-acs4miniapp-inner.m.taobao.com
+    types: [A]
+  - name: api.m.jd.com
+    types: [A]
+  - name: sglong.wechat.com
+    types: [A]
+  - name: sgshort.wechat.com
+    types: [A]
+  - name: sgminorshort.wechat.com
+    types: [A]
+  - name: sgaxshort.wechat.com
+    types: [A]
+  - name: sgshort.pay.wechat.com
+    types: [A]
+  - name: hklong.weixin.qq.com
+    types: [A]
+  - name: hkshort.weixin.qq.com
+    types: [A]
+  - name: hkminorshort.weixin.qq.com
+    types: [A]
+  - name: hkquic.weixin.qq.com
+    types: [A]
+  - name: hkshort.pay.weixin.qq.com
+    types: [A]
+  - name: hkshort6.weixin.qq.com
+    types: [A]
+  - name: hkextshort.weixin.qq.com
+    types: [A]
+  - name: hkdisas.weixin.qq.com
+    types: [A]
+  - name: hkaxshort.weixin.qq.com
+    types: [A]
