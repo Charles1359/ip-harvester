@@ -33,6 +33,8 @@ edns_client_subnets:
 domains:
   - name: contacts.icloud.com
     types: [A, AAAA]
+  - name: gateway.icloud.com
+    types: [A, AAAA]
   - name: amdc.m.taobao.com
     types: [A]
   - name: ga-bp13zjq7c66whdydgu0q6.aliyunga0017.com
